@@ -10,10 +10,10 @@ const HeaderHome = () => {
     animate={{opacity: 1, translateY: 0, transition:{type: 'spring', duration: 2}}}
     >
       <Heading title="SPORT" />
-      <h1 className="xl:text-6xl text-5xl font-bold text-[#353333]">
+      <h1 className="xl:text-6xl text-5xl font-bold text-white md:text-[#353333]">
         Landing <span className="">Page</span>
       </h1>
-      <h2 className="flex lg:w-[50%] mt-5 leading-normal max-lg:line-clamp-3">
+      <h2 className="flex lg:w-[50%] mt-5 leading-normal max-lg:line-clamp-3 text-white md:text-[#353333]">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text
         ever since the 1500s,

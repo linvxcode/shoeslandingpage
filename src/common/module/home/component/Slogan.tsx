@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Slogan = () => {
   return (
-    <motion.div className="absolute w-[50%] top-0 right-[180px] xl:right-[240px]"
+    <motion.div className="absolute w-[50%] top-0 max-md:left-0 md:right-[180px] xl:right-[240px]"
     initial={{ opacity: 0 }}
     animate={{ opacity: [0, 1, 0, 1, 0, 1], transition: { duration: 0.5 }}}
     >

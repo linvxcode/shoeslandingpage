@@ -5,7 +5,7 @@ import React from "react";
 
 const Line = () => {
   return (
-    <div className="absolute lg:top-0 top-[390px]  left-0 right-[10px] lg:right-0 xl:right-[100px]">
+    <div className="absolute lg:top-0 top-[490px]  left-0 right-[10px] lg:right-0 xl:right-[100px]">
       <div className="absolute top-[90px]  right-[40px]">
         <Subtract />
       </div>
